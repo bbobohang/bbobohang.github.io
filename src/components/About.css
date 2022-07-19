@@ -1,0 +1,52 @@
+.aboutContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+.aboutLeft {
+	flex: 1;
+	padding: 10px;
+	padding-left: 120px;
+}
+
+.aboutRight {
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+
+.imgContainer {
+	height: 400px;
+	width: 500px;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: 'contain';
+}
+
+.contentContainer {
+	display: flex;
+	color: white;
+
+	text-align: justify;
+}
+
+.buttonContainer {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btn.btnResume {
+	background-color: black;
+	color: white;
+}
+
+.btn.btnResume:hover {
+	background-color: var(--primary-color);
+}

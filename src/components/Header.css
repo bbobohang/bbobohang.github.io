@@ -1,0 +1,43 @@
+.headerContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	justify-content: center;
+	align-items: top;
+	background-color: black;
+}
+
+.headerLeft {
+	flex: 2;
+	padding: 10px;
+	text-align: left;
+	font-size: 30px;
+	padding-left: 40px;
+	margin-top: 30px;
+	color: white;
+	padding-left: 120px;
+}
+
+.headerLeft > h5 {
+	font-weight: lighter;
+}
+.headerRight {
+	flex: 1;
+}
+
+.btn {
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	font-size: 22px;
+
+	border: 1px solid var(--primary-color);
+	transition: all 0.2s;
+	background-color: var(--primary-color);
+	color: black;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+}
