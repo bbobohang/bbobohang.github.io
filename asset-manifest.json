@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0b38456.css",
-    "main.js": "/static/js/main.d519c3b5.js",
+    "main.css": "/static/css/main.2ef9cc33.css",
+    "main.js": "/static/js/main.df8c73ca.js",
+    "static/media/bg2.png": "/static/media/bg2.36e698563f06b9c44189.png",
     "static/media/profileImage.jpg": "/static/media/profileImage.119bba3543d28b0e2bcc.jpg",
     "static/media/devcon.png": "/static/media/devcon.79b319391e559d53292a.png",
     "static/media/gymapp.png": "/static/media/gymapp.093ab0bad7ccae329864.png",
@@ -9,12 +10,17 @@
     "static/media/ezce.png": "/static/media/ezce.7bae7c8efb494defdef5.png",
     "static/media/juypter.png": "/static/media/juypter.f7efca7ef10c9e3367cf.png",
     "static/media/flutter.png": "/static/media/flutter.d9a0696188300aaa7bb8.png",
+    "static/media/reactnative.png": "/static/media/reactnative.05c5d430521783a454ed.png",
+    "static/media/react.png": "/static/media/react.e00a575a2bea6db633cc.png",
+    "static/media/mongo.png": "/static/media/mongo.8af37f356e0d1d77a8a9.png",
+    "static/media/node.png": "/static/media/node.01d55da1d1ba44b7245c.png",
+    "static/media/express.png": "/static/media/express.5aeb290487d01b327b9c.png",
     "index.html": "/index.html",
-    "main.d0b38456.css.map": "/static/css/main.d0b38456.css.map",
-    "main.d519c3b5.js.map": "/static/js/main.d519c3b5.js.map"
+    "main.2ef9cc33.css.map": "/static/css/main.2ef9cc33.css.map",
+    "main.df8c73ca.js.map": "/static/js/main.df8c73ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0b38456.css",
-    "static/js/main.d519c3b5.js"
+    "static/css/main.2ef9cc33.css",
+    "static/js/main.df8c73ca.js"
   ]
 }
