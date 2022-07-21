@@ -4,7 +4,8 @@
 	height: 100vh;
 	justify-content: center;
 	align-items: top;
-	background-color: black;
+	/* background-color: black; */
+	position: relative;
 }
 
 .headerLeft {
@@ -30,14 +31,12 @@
 	height: 60px;
 	cursor: pointer;
 	font-size: 22px;
-
 	border: 1px solid var(--primary-color);
 	transition: all 0.2s;
 	background-color: var(--primary-color);
 	color: black;
 }
-
 .btn:hover {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }

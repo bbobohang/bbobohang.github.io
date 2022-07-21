@@ -26,7 +26,7 @@
 }
 
 .cardContainer:hover .image {
-	opacity: 0.2;
+	opacity: 0;
 	transition: 0.5s ease;
 }
 

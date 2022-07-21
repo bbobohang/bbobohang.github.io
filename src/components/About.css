@@ -40,13 +40,67 @@ img {
 	display: block;
 	width: 100%;
 	margin-top: 20px;
+	position: relative;
+	height: 60px;
+	width: 200px;
 }
 
 .btn.btnResume {
 	background-color: black;
 	color: white;
+	transition-delay: 0.2s;
 }
 
 .btn.btnResume:hover {
 	background-color: var(--primary-color);
 }
+
+.buttonContainer:after {
+	content: '';
+	width: 0;
+	height: 2px;
+	position: absolute;
+	transition: all 0.2s linear;
+	background: var(--primary-color);
+	left: 0;
+	bottom: 0;
+}
+.buttonContainer:before {
+	content: '';
+	width: 0;
+	height: 2px;
+	position: absolute;
+	transition: all 0.2s linear;
+	background: var(--primary-color);
+	right: 0;
+	top: 0;
+}
+
+span::before,
+span::after {
+	content: '';
+	width: 2px;
+	height: 0;
+	position: absolute;
+	transition: all 0.2s linear;
+	background: var(--primary-color);
+}
+.buttonContainer:hover::before,
+.buttonContainer:hover::after {
+	width: 200px;
+}
+
+.buttonContainer span::before {
+	left: 0;
+	top: 0;
+}
+.buttonContainer span::after {
+	right: 0;
+	bottom: 0;
+}
+
+.buttonContainer span:hover::before,
+.buttonContainer span:hover::after {
+	height: 60px;
+}
+/*----- button 1 -----*/

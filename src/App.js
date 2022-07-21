@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
@@ -8,9 +8,12 @@ import './App.css';
 function App() {
 	return (
 		<Fragment>
-			<ScrollUpButton AnimationDuration={0} />
-			<Navbar />
-			<Header />
+			<ScrollUpButton AnimationDuration={500} />
+			<div className='bg'>
+				<div className='overlay' />
+				<Navbar />
+				<Header />
+			</div>
 			<About />
 			<Projects />
 		</Fragment>

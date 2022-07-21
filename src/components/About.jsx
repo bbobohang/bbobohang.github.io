@@ -24,7 +24,9 @@ const About = () => {
 					</p>
 				</div>
 				<div className='buttonContainer'>
-					<button className='btn btnResume'>My Resume</button>
+					<span>
+						<button className='btn btnResume'>My Resume</button>
+					</span>
 				</div>
 			</div>
 		</div>
