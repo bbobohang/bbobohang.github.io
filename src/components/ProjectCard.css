@@ -36,7 +36,7 @@
 }
 .overlayTitle,
 .overlaySubtitle {
-	color: white;
+	color: black;
 	font-size: 16px;
 	width: 80%;
 }
@@ -49,4 +49,59 @@
 .overlaySubtitle {
 	font-size: 16px;
 	text-align: justify;
+}
+
+.card,
+.front-face,
+.back-face {
+	position: absolute;
+}
+
+.back-face {
+	padding-left: 10px;
+	padding-right: 10px;
+	/* color: var(--text-gray-color); */
+}
+
+.back-face-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.card {
+	display: flex;
+	height: 200px;
+	width: 300px;
+	position: relative;
+}
+.card .front-face {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.card .back-face {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	backface-visibility: hidden;
+
+	transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transform: rotateY(180deg);
+	background-color: var(--primary-color);
+}
+
+.card:hover > .back-face {
+	transform: rotateY(0deg);
+}
+
+.card:hover > .front-face {
+	transform: rotateY(-180deg);
 }

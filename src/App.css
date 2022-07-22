@@ -2,6 +2,7 @@
 
 :root {
 	--primary-color: #cf2947;
+	--text-gray-color: rgb(180, 180, 180);
 }
 html {
 	scroll-behavior: smooth;

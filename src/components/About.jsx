@@ -22,7 +22,10 @@ const About = () => {
 						University (NTU). This multi-disciplinary programme integrates two
 						disciplines hence, equpping me with both hard and soft skills to put on
 						different hats as both an Engineer and Business graduate. I am passionate
-						in building/designing applications to provide value to people's life
+						in building/designing applications to provide value to people's life.
+						<br />
+						<br />
+						Talks about #WebDevelopment #MobileDevelopment #MachineLearning
 					</p>
 				</div>
 				<div className='buttonContainer'>

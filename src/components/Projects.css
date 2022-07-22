@@ -10,7 +10,7 @@
 }
 
 .projSubtitle {
-	color: white;
+	color: var(--text-gray-color);
 	font-weight: 100;
 	font-size: 24px;
 	text-align: center;
@@ -61,8 +61,8 @@
 
 .contentWrapper {
 	width: 100%;
-	color: black;
-	height: 250px;
+	color: white;
+	height: 300px;
 	display: flex;
 	flex-direction: row;
 	gap: 20px;

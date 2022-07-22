@@ -1,7 +1,8 @@
 import React from 'react';
 import './Skills.css';
 import { RiComputerFill } from 'react-icons/ri';
-
+import { IoMdAnalytics } from 'react-icons/io';
+import { FaBusinessTime } from 'react-icons/fa';
 const Skills = () => {
 	return (
 		<div className='skillsContainer' id='skills'>
@@ -13,54 +14,51 @@ const Skills = () => {
 					<div className='itemContainer'>
 						<span className='itemTitle'>
 							<RiComputerFill size={60} color='grey' />
-							<span>Technology</span>
+							<span>Programming</span>
 						</span>
 						<span className='itemDesc'>
 							<p>
 								<b>Topics:</b> <br />
 								Web Development, Mobile App Development, Data Analytics, Data Science,
-								AI, Algorithms, Machine Learning, Object-Oriented Design, Agile, SCRUM
+								AI, Algorithms, Machine Learning, Object-Oriented Design, Agile
 								<br /> <br />
 								<b>Programming Languages:</b>
 								<br />
-								ReactJS, React Native, Java, Python, Node.js, HTML, CSS, JQuery,
-								GraphQL, C, MongoDB
+								ReactJS, React Native, Node.js, HTML, CSS, Java, Python, Flutter,
+								Firebase, C, MongoDB, MySQL
 							</p>
 						</span>
 					</div>
 					<div className='itemContainer'>
 						<span className='itemTitle'>
-							<RiComputerFill size={60} color='grey' />
+							<FaBusinessTime size={60} color='grey' />
 							<span>Business</span>
 						</span>
 						<span className='itemDesc'>
 							<p>
 								<b>Topics:</b> <br />
-								Web Development, Mobile App Development, Data Analytics, Data Science,
-								AI, Algorithms, Machine Learning, Object-Oriented Design, Agile, SCRUM
+								Conjuct Consulting, Product Management, Project Management
 								<br /> <br />
-								<b>Programming Languages:</b>
+								<b>Sofware:</b>
 								<br />
-								ReactJS, React Native, Java, Python, Node.js, HTML, CSS, JQuery,
-								GraphQL, C, MongoDB
+								Word, Powerpoint, Excel
 							</p>
 						</span>
 					</div>
 					<div className='itemContainer'>
 						<span className='itemTitle'>
-							<RiComputerFill size={60} color='grey' />
+							<IoMdAnalytics size={60} color='grey' />
 							<span>Analytics</span>
 						</span>
 						<span className='itemDesc'>
 							<p>
 								<b>Topics:</b> <br />
-								Web Development, Mobile App Development, Data Analytics, Data Science,
-								AI, Algorithms, Machine Learning, Object-Oriented Design, Agile, SCRUM
+								Artificial Intelligence (NLP), Data Preparation, Data Discovery, Data
+								Visualization, Predictive And Prescriptive Analytics, Data Automation
 								<br /> <br />
-								<b>Programming Languages:</b>
+								<b>Software:</b>
 								<br />
-								ReactJS, React Native, Java, Python, Node.js, HTML, CSS, JQuery,
-								GraphQL, C, MongoDB
+								Python, R, Tableau, Alteryx, Quicksight, Athena
 							</p>
 						</span>
 					</div>

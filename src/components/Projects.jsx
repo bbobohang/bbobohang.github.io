@@ -51,7 +51,7 @@ const Projects = () => {
 					image: flutter,
 					title: 'CarparkCompanion',
 					desc:
-						'Flutter application build for CZ2006 Software Engineering course in NTU. Carpark Companion aims to help users find the suitable carparks based on their needs.',
+						'Flutter application build for CZ2006 Software Engineering course in NTU. ',
 					url: 'https://github.com/bbobohang/CarparkCompanion',
 				},
 				{
