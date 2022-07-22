@@ -11,6 +11,11 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className='navItem'>
+						<a className='listItem' href='#skills'>
+							Skills
+						</a>
+					</li>
+					<li className='navItem'>
 						<a className='listItem' href='#projects'>
 							Projects
 						</a>

@@ -22,7 +22,6 @@ body {
 	height: 60px;
 	cursor: pointer;
 	font-size: 22px;
-
 	border: 1px solid var(--primary-color);
 	transition: all 0.2s;
 	background-color: var(--primary-color);
@@ -53,5 +52,4 @@ h2::after {
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover;
-	position: relative;
 }

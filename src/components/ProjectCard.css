@@ -1,7 +1,7 @@
 .cardContainer {
 	height: 200px;
 	width: 300px;
-	background-color: var(--primary-color);
+	background-color: white;
 	overflow: hidden;
 	border-radius: 10px;
 	cursor: pointer;

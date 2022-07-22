@@ -5,7 +5,7 @@ import bg from '../assets/bg.jpg';
 import ProjectCard from './ProjectCard';
 import gym from '../assets/gymapp.png';
 import devcon from '../assets/devcon.png';
-import ezce from '../assets/ezce.png';
+import ezce from '../assets/react.png';
 import flutter from '../assets/flutter.png';
 import jyp from '../assets/juypter.png';
 const Projects = () => {

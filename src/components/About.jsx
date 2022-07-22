@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import image from '../assets/profileImage.jpg';
+import image from '../assets/about.jpg';
 
 const About = () => {
 	return (
@@ -17,10 +17,12 @@ const About = () => {
 			<div className='aboutRight'>
 				<div className='contentContainer'>
 					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto obcaecati
-						sint cupiditate assumenda recusandae! A maiores aut optio esse reiciendis,
-						repellat, natus consectetur fugit excepturi quam assumenda qui error
-						rerum.
+						I am currently pursuing Double Degree in Business (Specialisation in
+						Business Analytics) and Computer Science at Nanyang Technological
+						University (NTU). This multi-disciplinary programme integrates two
+						disciplines hence, equpping me with both hard and soft skills to put on
+						different hats as both an Engineer and Business graduate. I am passionate
+						in building/designing applications to provide value to people's life
 					</p>
 				</div>
 				<div className='buttonContainer'>

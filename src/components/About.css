@@ -1,13 +1,11 @@
 .aboutContainer {
+	opacity: 1;
+	transform: none;
+	visibility: visible;
 	display: flex;
 	flex-direction: row;
-	height: 100vh;
-	/* background-image: url('../assets/bgstars.jpg');
-	background-position: center; 
-	background-repeat: no-repeat; 
-	background-size: cover; */
+	height: auto;
 }
-
 .aboutLeft {
 	flex: 1;
 	padding: 10px;
@@ -36,14 +34,13 @@ img {
 .contentContainer {
 	display: flex;
 	color: white;
-
+	margin-bottom: 50px;
 	text-align: justify;
 }
 
 .buttonContainer {
 	display: block;
 	width: 100%;
-	margin-top: 20px;
 	position: relative;
 	height: 60px;
 	width: 200px;
@@ -53,6 +50,7 @@ img {
 	background-color: black;
 	color: white;
 	transition-delay: 0.2s;
+	margin-top: 0px;
 }
 
 .btn.btnResume:hover {
@@ -107,4 +105,22 @@ span::after {
 .buttonContainer span:hover::after {
 	height: 60px;
 }
-/*----- button 1 -----*/
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
