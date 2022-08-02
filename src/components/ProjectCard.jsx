@@ -32,6 +32,7 @@ const ProjectCard = ({ item }) => {
 						color='white'
 						size='40px'
 						onMouseOver={({ target }) => (target.style.cursor = 'pointer')}
+						className='demo-icon'
 					/>
 				</a>
 				{item.demo_url && (

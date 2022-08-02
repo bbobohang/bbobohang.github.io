@@ -1,25 +1,43 @@
 .expContainer {
-	color: white;
+	opacity: 1;
+	transform: none;
+	visibility: visible;
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: auto;
 	padding-left: 120px;
 	padding-right: 120px;
-	position: relative;
 }
 
-.expContent {
-	display: flex;
-	height: 20%;
-	gap: 20px;
-	width: 1024px;
-	align-items: center;
-	justify-content: space-between;
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
 }
 
-.expContent > img {
-	transition: transform 0.2s;
+.grid-item {
+	padding: 20px;
+	text-align: center;
 }
-.expContent > img:hover {
-	transform: scale(1.2);
+
+.item-image-container {
+	margin-bottom: 10px;
+	overflow: hidden;
+	height: 160px;
+}
+.item-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.item-subtitle,
+.item-desc {
+	color: var(--text-gray-color);
+	margin-bottom: 10px;
+	text-align: center;
+}
+.item-subtitle {
+	text-align: center !important;
 }
