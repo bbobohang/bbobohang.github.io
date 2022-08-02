@@ -105,3 +105,11 @@
 .card:hover > .front-face {
 	transform: rotateY(-180deg);
 }
+
+.demo-icon {
+	padding-left: 10px;
+	transition: transform 0.5s;
+}
+.demo-icon:hover {
+	transform: scale(1.2);
+}

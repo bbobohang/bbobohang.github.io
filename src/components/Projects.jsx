@@ -23,14 +23,16 @@ const Projects = () => {
 					desc:
 						'Gym exercises application built using Reactjs, Material UI and RapidAPI',
 					url: 'https://github.com/bbobohang/Gym-Buddy',
+					demo_url: 'https://gym-buddy-reactjs.netlify.app/',
 				},
 				{
 					id: 2,
 					image: ezce,
 					title: 'eczeStrong',
 					desc:
-						'eczeStrong is an phone application built using React Native to help Eczema patients alleviate their mental and physical',
+						'React Native application to help Eczema patients alleviate their mental and physical',
 					url: 'https://github.com/bbobohang/eczeStrong',
+					demo_url: 'https://expo.dev/@bobohang/AlvinApp',
 				},
 				{
 					id: 3,
@@ -38,6 +40,7 @@ const Projects = () => {
 					title: 'DevConnector',
 					desc: 'Social network for developers to connect, built on the MERN stack',
 					url: 'https://github.com/bbobohang/Dev-Connector',
+					demo_url: 'https://quiet-retreat-63438.herokuapp.com/',
 				},
 			],
 		},
@@ -53,6 +56,7 @@ const Projects = () => {
 					desc:
 						'Flutter application build for CZ2006 Software Engineering course in NTU. ',
 					url: 'https://github.com/bbobohang/CarparkCompanion',
+					demo_url: 'https://www.youtube.com/watch?v=A_JhkTmLcMU',
 				},
 				{
 					id: 2,

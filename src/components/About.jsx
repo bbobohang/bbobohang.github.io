@@ -30,7 +30,13 @@ const About = () => {
 				</div>
 				<div className='buttonContainer'>
 					<span>
-						<button className='btn btnResume'>My Resume</button>
+						<a
+							href={require('../../src/assets/NTU_Low_Lee_Hang_Resume.pdf')}
+							download='NTU_Low_Lee_Hang_Resume'
+							target='_blank'
+						>
+							<button className='btn btnResume'>My Resume</button>
+						</a>
 					</span>
 				</div>
 			</div>

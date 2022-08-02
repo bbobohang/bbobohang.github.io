@@ -34,11 +34,11 @@ const Footer = () => {
 				</a>
 			</div>
 			<div className='content'>
-				<p>Portfolio Website build with ReactJS, HTML & CSS</p>
+				<p>© 2022 Designed by Low Lee Hang. All rights reserved.</p>
 				<p>
 					Source code can be found{' '}
 					<a href='https://github.com/bbobohang/bbobohang.github.io' target='blank'>
-						<u>here</u>
+						<u>here.</u>
 					</a>
 				</p>
 			</div>
