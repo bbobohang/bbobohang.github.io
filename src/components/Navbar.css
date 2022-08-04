@@ -1,7 +1,6 @@
 .row {
 	display: flex;
 	justify-content: flex-end;
-	/* background-color: black; */
 	height: 100px;
 	align-items: center;
 }
@@ -43,4 +42,54 @@ a:hover {
 .listItem:hover:after {
 	width: 100%;
 	background: var(--primary-color);
+}
+
+.hamburger {
+	border: 0;
+	height: 40px;
+	top: 35px;
+	width: 40px;
+	padding: 0.5rem;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+	position: absolute;
+	right: 25px;
+	transform: translateY(-50%);
+	display: none;
+}
+.hamburger:hover {
+	background-color: var(--primary-color);
+}
+@media screen and (max-width: 800px) {
+	.hamburger {
+		display: block;
+	}
+
+	.nav ul {
+		position: absolute;
+		left: 0;
+		flex-direction: column;
+		width: 100%;
+		border-top: 1px solid white;
+		z-index: 99;
+		padding: 0px;
+		height: 80vh;
+		justify-content: flex-start;
+		background: var(--text-gray-color);
+		display: none;
+	}
+	.navItem {
+		text-align: center;
+		margin: 0;
+	}
+	.listItem {
+		color: black;
+		width: 100%;
+		padding: 1.5rem 0;
+	}
+	.nav.expanded ul {
+		display: block;
+	}
 }

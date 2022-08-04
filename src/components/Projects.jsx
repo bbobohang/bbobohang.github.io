@@ -76,40 +76,42 @@ const Projects = () => {
 
 	return (
 		<div className='projectContainer' id='projects'>
-			<div className='projTitle'>
-				<h2>Projects</h2>
-			</div>
-			<div className='projSubtitle'>
-				Below are some of the projects that I have worked on
-			</div>
-			<div className='container'>
-				<div className='tabs'>
-					<div className='btnWrapper'>
+			<div className='projFlex'>
+				<div className='projTitle'>
+					<h2>Projects</h2>
+				</div>
+				<div className='projSubtitle'>
+					Below are some of the projects that I have worked on
+				</div>
+				<div className='container'>
+					<div className='tabs'>
+						<div className='btnWrapper'>
+							{tabs.map((tab, i) => (
+								<button
+									key={i}
+									id={tab.id}
+									disabled={currentTab === `${tab.id}`}
+									onClick={handleTabClick}
+									className='btnProject'
+								>
+									{tab.tabTitle}
+								</button>
+							))}
+						</div>
+					</div>
+					<div className='content'>
 						{tabs.map((tab, i) => (
-							<button
-								key={i}
-								id={tab.id}
-								disabled={currentTab === `${tab.id}`}
-								onClick={handleTabClick}
-								className='btnProject'
-							>
-								{tab.tabTitle}
-							</button>
+							<div key={i}>
+								{currentTab === `${tab.id}` && (
+									<div className='contentWrapper'>
+										{tab.content.map((item, i) => (
+											<ProjectCard item={item} />
+										))}
+									</div>
+								)}
+							</div>
 						))}
 					</div>
-				</div>
-				<div className='content'>
-					{tabs.map((tab, i) => (
-						<div key={i}>
-							{currentTab === `${tab.id}` && (
-								<div className='contentWrapper'>
-									{tab.content.map((item, i) => (
-										<ProjectCard item={item} />
-									))}
-								</div>
-							)}
-						</div>
-					))}
 				</div>
 			</div>
 		</div>

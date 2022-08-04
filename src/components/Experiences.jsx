@@ -64,20 +64,22 @@ const Experiences = () => {
 	return (
 		<>
 			<div className='expContainer' id='experiences'>
-				<div className='title'>
-					<h2>Experiences</h2>
-				</div>
-				<div className='grid-container'>
-					{EXP.map((item, index) => (
-						<div className='grid-item' key={index}>
-							<div className='item-image-container'>
-								<img src={item.image} />
+				<div className='expFlex'>
+					<div className='title'>
+						<h2>Experiences</h2>
+					</div>
+					<div className='grid-container'>
+						{EXP.map((item, index) => (
+							<div className='grid-item' key={index}>
+								<div className='item-image-container'>
+									<img src={item.image} />
+								</div>
+								<div className='item-title'>{item.title}</div>
+								<div className='item-subtitle'>{item.subtitle}</div>
+								<div className='item-desc'>{item.desc}</div>
 							</div>
-							<div className='item-title'>{item.title}</div>
-							<div className='item-subtitle'>{item.subtitle}</div>
-							<div className='item-desc'>{item.desc}</div>
-						</div>
-					))}
+						))}
+					</div>
 				</div>
 			</div>
 		</>

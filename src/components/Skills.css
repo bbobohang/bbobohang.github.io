@@ -1,14 +1,16 @@
 .skillsContainer {
-	opacity: 1;
-	transform: none;
-	visibility: visible;
 	display: flex;
 	flex-direction: column;
 	height: auto;
-	padding-left: 120px;
-	padding-right: 120px;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center;
+	align-items: center;
 }
-
+.skillsFlex {
+	max-width: 1024px;
+	gap: 20px;
+}
 .flexContainer {
 	display: flex;
 	flex-direction: row;
@@ -59,4 +61,18 @@
 .skillsTitle {
 	padding: 10px;
 	font-size: 32px;
+}
+
+@media (max-width: 800px) {
+	.itemContainer {
+		flex-direction: column;
+		width: 90vw;
+	}
+	.skillsContainer {
+		padding: 0px;
+		max-width: 100vw;
+		display: flex;
+		height: 100%;
+		overflow: auto;
+	}
 }

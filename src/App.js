@@ -19,10 +19,12 @@ function App() {
 	return (
 		<Fragment>
 			<ScrollUpButton AnimationDuration={500} />
-			<div className='bg'>
-				<div className='overlay' />
-				<Navbar />
-				<Header />
+			<div className='bg-flex'>
+				<div className='bg'>
+					<div className='overlay' />
+					<Navbar />
+					<Header />
+				</div>
 			</div>
 			<div data-aos='fade-right'>
 				<About />

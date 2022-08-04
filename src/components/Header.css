@@ -123,3 +123,29 @@
 		transform: translateY(-15px);
 	}
 }
+
+@media (max-width: 800px) {
+	.headerContainer {
+		padding: 0px;
+		max-width: 100vw;
+	}
+	.headerContainer > div {
+		padding: 0px;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.btn.headerBtn {
+		margin: 0px;
+	}
+	.headerLeft > h1 {
+		margin: 0px;
+		margin-bottom: 20px;
+		font-size: 50px;
+	}
+	.headerLeft > h5 {
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+}

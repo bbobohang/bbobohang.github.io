@@ -3,10 +3,11 @@
 	transform: none;
 	visibility: visible;
 	display: flex;
-	flex-direction: column;
 	height: auto;
-	padding-left: 120px;
-	padding-right: 120px;
+	justify-content: center;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .grid-container {
@@ -40,4 +41,26 @@
 }
 .item-subtitle {
 	text-align: center !important;
+}
+.expFlex {
+	max-width: 1024px;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+}
+@media (max-width: 800px) {
+	.expContainer {
+		padding: 0px;
+		max-width: 100vw;
+	}
+	.expFlex {
+		flex-direction: column;
+		width: 90vw;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		padding: 10px;
+	}
 }

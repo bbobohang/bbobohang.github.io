@@ -1,10 +1,16 @@
 .projectContainer {
-	height: 100vh;
+	height: auto;
+	display: flex;
 	padding: 10px;
-	padding-left: 120px;
-	padding-right: 120px;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center;
+	align-items: center;
 }
-
+.projFlex {
+	max-width: 1024px;
+	gap: 20px;
+}
 .projTitle {
 	color: white;
 }
@@ -68,4 +74,22 @@
 	gap: 20px;
 	justify-content: space-around;
 	align-items: center;
+}
+@media screen and (max-width: 800px) {
+	.projectContainer {
+		max-width: 100vw;
+		padding: 0px;
+	}
+	.projFlex {
+		width: 90vw;
+	}
+	.contentWrapper {
+		flex-direction: column;
+		height: auto;
+	}
+	.btnWrapper {
+		flex-direction: column;
+		width: 200px;
+		margin-bottom: 20px;
+	}
 }
