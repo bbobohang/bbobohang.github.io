@@ -8,6 +8,7 @@ import devcon from '../assets/devcon.png';
 import ezce from '../assets/react.png';
 import flutter from '../assets/flutter.png';
 import jyp from '../assets/juypter.png';
+import citi from '../assets/citi.png';
 const Projects = () => {
 	const [currentTab, setCurrentTab] = useState('1');
 	const tabs = [
@@ -18,6 +19,14 @@ const Projects = () => {
 			content: [
 				{
 					id: 1,
+					image: citi,
+					title: 'Wealth Buddy',
+					desc: 'Champion web app for Citi HackOverflow 2022',
+					url: 'https://github.com/Interstellarkai/Eternals',
+					// demo_url: 'https://gym-buddy-reactjs.netlify.app/',
+				},
+				{
+					id: 2,
 					image: gym,
 					title: 'Gym Buddy',
 					desc:
@@ -26,16 +35,16 @@ const Projects = () => {
 					demo_url: 'https://gym-buddy-reactjs.netlify.app/',
 				},
 				{
-					id: 2,
+					id: 3,
 					image: ezce,
 					title: 'eczeStrong',
 					desc:
-						'React Native application to help Eczema patients alleviate their mental and physical',
+						'React Native app to help Eczema patients alleviate their mental & physical wellbeing',
 					url: 'https://github.com/bbobohang/eczeStrong',
 					demo_url: 'https://expo.dev/@bobohang/AlvinApp',
 				},
 				{
-					id: 3,
+					id: 4,
 					image: devcon,
 					title: 'DevConnector',
 					desc: 'Social network for developers to connect, built on the MERN stack',
