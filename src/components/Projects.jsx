@@ -6,9 +6,11 @@ import ProjectCard from './ProjectCard';
 import gym from '../assets/gymapp.png';
 import devcon from '../assets/devcon.png';
 import ezce from '../assets/react.png';
-import flutter from '../assets/flutter.png';
 import jyp from '../assets/juypter.png';
 import citi from '../assets/citi.png';
+import carparkCompanion from '../assets/carparkcompanionSS.png';
+import elderCare from '../assets/elderCare.png';
+
 const Projects = () => {
 	const [currentTab, setCurrentTab] = useState('1');
 	const tabs = [
@@ -34,17 +36,9 @@ const Projects = () => {
 					url: 'https://github.com/bbobohang/Gym-Buddy',
 					demo_url: 'https://gym-buddy-reactjs.netlify.app/',
 				},
+
 				{
 					id: 3,
-					image: ezce,
-					title: 'eczeStrong',
-					desc:
-						'React Native app to help Eczema patients alleviate their mental & physical wellbeing',
-					url: 'https://github.com/bbobohang/eczeStrong',
-					demo_url: 'https://expo.dev/@bobohang/AlvinApp',
-				},
-				{
-					id: 4,
 					image: devcon,
 					title: 'DevConnector',
 					desc: 'Social network for developers to connect, built on the MERN stack',
@@ -60,7 +54,15 @@ const Projects = () => {
 			content: [
 				{
 					id: 1,
-					image: flutter,
+					image: elderCare,
+					title: 'ElderCare',
+					desc:
+						'Web application built with MERN Stack for NTU CZ3002 Advance Software Engineering. ',
+					url: 'https://github.com/bbobohang/CZ3002-Elder-Care',
+				},
+				{
+					id: 2,
+					image: carparkCompanion,
 					title: 'CarparkCompanion',
 					desc:
 						'Flutter application build for CZ2006 Software Engineering course in NTU. ',
@@ -68,11 +70,20 @@ const Projects = () => {
 					demo_url: 'https://www.youtube.com/watch?v=A_JhkTmLcMU',
 				},
 				{
-					id: 2,
+					id: 3,
+					image: ezce,
+					title: 'eczeStrong',
+					desc:
+						'React Native app to help Eczema patients alleviate their mental & physical wellbeing',
+					url: 'https://github.com/bbobohang/eczeStrong',
+					demo_url: 'https://expo.dev/@bobohang/AlvinApp',
+				},
+				{
+					id: 4,
 					image: jyp,
 					title: 'DCA-VOO',
 					desc:
-						'This project is to test out whether dollar cost averaging of investing is more profitable than lumpsum investing. ',
+						'Testing out whether DCA of investing is more profitable than lumpsum investing. ',
 					url: 'https://github.com/bbobohang/DCA-VOO',
 				},
 			],
